@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.target=Person
+comment0.target=Dog
 comment1.params=
 comment1.target=void\ sleep()
 comment1.text=Methods\ are\ defined\ next
@@ -8,7 +8,7 @@ comment2.target=void\ eat()
 comment3.params=
 comment3.target=void\ run()
 comment4.params=
-comment4.target=void\ growOld()
+comment4.target=void\ growOlder()
 comment5.params=
-comment5.target=void\ vape()
+comment5.target=void\ dyeFur()
 numComments=6

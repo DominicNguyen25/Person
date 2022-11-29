@@ -1,5 +1,5 @@
-public class Person {
-	
+public class Dog {
+    
   /** 
     Instance variables are defined first
     Instance variables should be defined as 'private', meaning their values
@@ -7,12 +7,12 @@ public class Person {
       values need to be retrieved or set from outside the class we should
       define "getter" and "setter" methods.  More on that later
   */
-  private String gender; 		// "male" or "female"
-  private int height; 		// height in inches
-  private int weight; 		// weight in pounds
-  private String hairColor; 	// "brown", "black", etc
-  private int health; 		// An integer that represents health
-  private int energy; 		// An integer that represents energy
+  private String furColor;
+  private int age;
+  private int health;
+  private int energy;
+  private String gender;
+  private int weight;
 
   /* Methods are defined next */
   public void sleep() {
@@ -22,21 +22,21 @@ public class Person {
 
   public void eat() {
     weight = weight + 1;
+    health = health + 5;
   }
 
   public void run () {
     energy = energy - 1;
+    health = health + 5;
   }
 
-  public void growOld() {
-    weight = weight + 10;
+  public void growOlder() {
     health = health - 2;
     energy = energy - 1;
-    hairColor = "gray";
   }
 
-  public void vape() {
-    health = health - 10;
+  public void dyeFur() {
+    furColor = "pink";
   }
 
 }
